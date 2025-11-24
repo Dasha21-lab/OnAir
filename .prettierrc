@@ -1,13 +1,13 @@
-module.exports = {
-    semi: true,
-    singleQuote: true,
-    jsxSingleQuote: true,
-    useTabs: true,
-    tabWidth: 2,
-    trailingComma: 'es5',
-    printWidth: 80,
-    endOfLine: 'auto'
-}
-    
-
-     
+{
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "endOfLine": "auto",
+    "quoteProps": "as-needed",
+    "bracketSpacing": true,
+    "bracketSameLine": false
+} 
