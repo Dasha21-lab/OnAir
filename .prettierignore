@@ -3,7 +3,5 @@ dist
 build
 storybook-static
 coverage
-*.md
 *.json
 package-lock.json
-yarn.lock
