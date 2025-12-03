@@ -31,3 +31,6 @@ jobs:
 
     - name: Prettier check
       run: npm run format:check
+
+    - name: TypeScript aliases check
+      run: npx tsc --noEmit --project tsconfig.json
