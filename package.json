@@ -9,7 +9,7 @@
     "stylelint": "stylelint \"src/**/*.{css,scss}\"",
     "stylelint:fix": "stylelint \"src/**/*.{css,scss}\" --fix",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" --ignore-path ./.prettierignore",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md,mdx}\" --ignore-path ./.prettierignore",
     "format:check": "prettier ./src --check",
     "check": "npm run stylelint:fix && npm run lint && npm run format",
     "preview": "vite preview",
